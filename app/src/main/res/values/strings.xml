@@ -18,7 +18,35 @@ Login to your account
     <string name="don_t_have_">
     Don\u00C2\u00B4t have an account?
     </string>
+    <string name="By_selecting_you_agree_to_the_following">
+    By_selecting_you_agree_to_the_following
+    </string>
     <string name="sing_up">
     Sing up
+    </string>
+    <string name="Terms_and_conditions">
+    Terms_and_conditions
+    </string>
+
+<string name="Usuarios">
+    Usuarios
+    </string>
+    <string name="Restaurantes">
+    Restaurantes
+    </string>
+    <string name="Tiendas">
+    Tiendas
+    </string>
+    <string name="Pedidos">
+    Pedidos
+    </string>
+    <string name="Menu_principal_ADM">
+    Menu_principal_ADM
+    </string>
+    <string name="Estadisticas_General">
+    Estadisticas General
+    </string>
+    <string name="Repartidores">
+    Repartidores
     </string>
 </resources>
