@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".Menu_prncpl">
+
+    <TextView
+        android:id="@+id/tvlog7"
+        android:layout_width="286dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/Menu_principal_ADM"
+        android:textAppearance="@style/login_to_yo"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <EditText
+        android:id="@+id/usuarios"
+        android:layout_width="295dp"
+        android:layout_height="38dp"
+        android:background="@drawable/rectext1"
+        android:inputType="text"
+        android:text="@string/Usuarios"
+        android:textAppearance="@style/email"
+        android:textColor="#949494"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Restaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvlog7" />
+
+    <EditText
+        android:id="@+id/Restaurantes"
+        android:layout_width="295dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/rectext1"
+        android:inputType="text"
+        android:text="@string/Restaurantes"
+        android:textAppearance="@style/email"
+        android:textColor="#949494"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Tiendas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Tiendas"
+        android:layout_width="295dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/rectext1"
+        android:inputType="text"
+        android:text="@string/Tiendas"
+        android:textAppearance="@style/email"
+        android:textColor="#949494"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Pedidos"
+        android:layout_width="295dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="284dp"
+        android:background="@drawable/rectext1"
+        android:inputType="text"
+        android:text="@string/Pedidos"
+        android:textAppearance="@style/email"
+        android:textColor="#949494"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Estadisticas_General"
+        android:layout_width="295dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/rectext1"
+        android:inputType="text"
+        android:text="@string/Estadisticas_General"
+        android:textAppearance="@style/email"
+        android:textColor="#949494"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pedidos"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <EditText
+        android:id="@+id/Repartidores"
+        android:layout_width="295dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/rectext1"
+        android:inputType="text"
+        android:text="@string/Repartidores"
+        android:textAppearance="@style/email"
+        android:textColor="#949494"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Estadisticas_General"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="286dp"
+        android:layout_height="32dp"
+        android:text="@string/By_selecting_you_agree_to_the_following"
+        android:textAppearance="@style/don_t_have_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <TextView
+        android:id="@+id/textcondtns"
+        android:layout_width="241dp"
+        android:layout_height="29dp"
+        android:text="@string/Terms_and_conditions"
+        android:textAppearance="@style/sing_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

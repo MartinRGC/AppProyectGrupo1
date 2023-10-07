@@ -31,6 +31,9 @@
             android:name=".Admin"
             android:exported="false" />
         <activity
+            android:name=".Menu_prncpl"
+            android:exported="false" />
+        <activity
             android:name=".LogingActivity"
             android:exported="false">
 
