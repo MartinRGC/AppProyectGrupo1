@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#FFFF"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Signupsell">
 
 
@@ -39,12 +39,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="77dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="79dp"
         android:layout_marginBottom="53dp"
         android:background="@drawable/rectsignup"
         android:text="Sign up"
         app:layout_constraintBottom_toTopOf="@+id/tvcondcon"
         app:layout_constraintEnd_toEndOf="@+id/edtemailsel"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="@+id/tvcondcon"
         app:layout_constraintTop_toBottomOf="@+id/edtemailsel" />
 
@@ -55,6 +57,7 @@
         android:layout_marginStart="3dp"
         android:layout_marginBottom="31dp"
         android:text="Sign up free account"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/edtrucsel"
         app:layout_constraintStart_toStartOf="@+id/edtrucsel"
         app:layout_constraintTop_toBottomOf="@+id/btnsel" />
@@ -65,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="By selecting up you agree to the following "
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/tvtermscon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:text="terms and coditions"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,29 +90,25 @@
         android:id="@+id/edtphonesel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="22dp"
         android:background="@drawable/rectext1"
         android:ems="10"
         android:inputType="text"
         android:text="Phone"
         android:textColor="#949494"
-        app:layout_constraintBottom_toTopOf="@+id/edtdatesel"
-        app:layout_constraintStart_toStartOf="@+id/edtpsswsel"
-        app:layout_constraintTop_toBottomOf="@+id/edtpsswsel" />
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="351dp" />
 
     <EditText
         android:id="@+id/edtemailsel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
         android:background="@drawable/rectext1"
         android:ems="10"
         android:inputType="text"
         android:text="Email"
         android:textColor="#949494"
-        app:layout_constraintBottom_toTopOf="@+id/btnsignsel"
-        app:layout_constraintStart_toStartOf="@+id/edtdatesel"
-        app:layout_constraintTop_toBottomOf="@+id/edtdatesel" />
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="494dp" />
 
     <EditText
         android:id="@+id/edtrucsel"
@@ -128,15 +129,13 @@
         android:id="@+id/edtdatesel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
         android:background="@drawable/rectext1"
         android:ems="10"
         android:inputType="text"
         android:text="Date of birth"
         android:textColor="#949494"
-        app:layout_constraintBottom_toTopOf="@+id/edtemailsel"
-        app:layout_constraintStart_toStartOf="@+id/edtphonesel"
-        app:layout_constraintTop_toBottomOf="@+id/edtphonesel" />
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="419dp" />
 
     <EditText
         android:id="@+id/edtpsswsel"
