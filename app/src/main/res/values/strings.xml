@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SplashFoodLoversAppMG</string>
+    <string name="login_to_yo">
+Login to your account
+</string>
+    <string name="email">
+    Email
+    </string>
+    <string name="password">
+    Password
+    </string>
+    <string name="login">
+    Login
+    </string>
+    <string name="forgot_your">
+    Forgot your password?
+    </string>
+    <string name="don_t_have_">
+    Don\u00C2\u00B4t have an account?
+    </string>
+    <string name="sing_up">
+    Sing up
+    </string>
+    <string name="direc_ini">Jirón Alonso de Molina 1652</string>
+    <string name="busca_ini">  ¿Con hambre? Píde algo!</string>
+    <string name="direc_usu">Direcciones</string>
+</resources>
